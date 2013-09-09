@@ -15,17 +15,17 @@ Just drag & drop the `CJAShowAlignmentRects.h` and `CJAShowAlignmentRects.m` to 
 First of all: take a look at the `ExampleViewController.m` in the Example
 
 ``` objc
-  //Show the Alignment Rects
-  [CJAShowAlignmentRects show];
+//Show the Alignment Rects
+[CJAShowAlignmentRects show];
 
-  //Hide the Alignment Rects
-  [CJAShowAlignmentRects hide];
+//Hide the Alignment Rects
+[CJAShowAlignmentRects hide];
 
-  //Show or Hide the Alignment Rects with the custom enum flag
-  [CJAShowAlignmentRects setStatus: CJAShowAligmentRectsStatusVisible];
+//Show or Hide the Alignment Rects with the custom enum flag
+[CJAShowAlignmentRects setStatus: CJAShowAligmentRectsStatusVisible];
 
-  //Get the current status
-  CJAShowAligmentRectsStatus status = [CJAShowAlignmentRects status];
+//Get the current status
+CJAShowAligmentRectsStatus status = [CJAShowAlignmentRects status];
 ```
 
 ##LICENSE
