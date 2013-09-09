@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA80C4CD17DDC8B80065F078 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA80C4CC17DDC8B80065F078 /* UIKit.framework */; };
+		FA80C4CF17DDC8B80065F078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA80C4CE17DDC8B80065F078 /* Foundation.framework */; };
+		FA80C4D117DDC8B80065F078 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA80C4D017DDC8B80065F078 /* CoreGraphics.framework */; };
+		FA80C4EB17DDC8B80065F078 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA80C4EA17DDC8B80065F078 /* SenTestingKit.framework */; };
+		FA80C4EC17DDC8B80065F078 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA80C4CC17DDC8B80065F078 /* UIKit.framework */; };
+		FA80C4ED17DDC8B80065F078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA80C4CE17DDC8B80065F078 /* Foundation.framework */; };
+		FAF64F8117DDD0EA00960937 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF64F7817DDD0EA00960937 /* AppDelegate.m */; };
+		FAF64F8317DDD0EA00960937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF64F7C17DDD0EA00960937 /* main.m */; };
+		FAF64F8417DDD0EA00960937 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF64F7E17DDD0EA00960937 /* Default-568h@2x.png */; };
+		FAF64F8517DDD0EA00960937 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF64F7F17DDD0EA00960937 /* Default.png */; };
+		FAF64F8617DDD0EA00960937 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF64F8017DDD0EA00960937 /* Default@2x.png */; };
+		FAF64F8C17DDD0FB00960937 /* CJAShowAlignmentRectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF64F8817DDD0FB00960937 /* CJAShowAlignmentRectsTests.m */; };
+		FAF64F9417DDD19000960937 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF64F9217DDD18D00960937 /* ExampleViewController.m */; };
+		FAF64F9717DDD1CB00960937 /* CJAShowAlignmentRects.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF64F9617DDD1CB00960937 /* CJAShowAlignmentRects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA80C4EE17DDC8B80065F078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA80C4C117DDC8B80065F078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA80C4C817DDC8B80065F078;
+			remoteInfo = CJAShowAlignmentRects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA80C4C917DDC8B80065F078 /* CJAShowAlignmentRects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJAShowAlignmentRects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA80C4CC17DDC8B80065F078 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA80C4CE17DDC8B80065F078 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA80C4D017DDC8B80065F078 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA80C4E917DDC8B80065F078 /* CJAShowAlignmentRectsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJAShowAlignmentRectsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA80C4EA17DDC8B80065F078 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FAF64F7717DDD0EA00960937 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAF64F7817DDD0EA00960937 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAF64F7A17DDD0EA00960937 /* CJAShowAlignmentRects-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CJAShowAlignmentRects-Info.plist"; sourceTree = "<group>"; };
+		FAF64F7B17DDD0EA00960937 /* CJAShowAlignmentRects-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CJAShowAlignmentRects-Prefix.pch"; sourceTree = "<group>"; };
+		FAF64F7C17DDD0EA00960937 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF64F7E17DDD0EA00960937 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAF64F7F17DDD0EA00960937 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FAF64F8017DDD0EA00960937 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FAF64F8717DDD0FB00960937 /* CJAShowAlignmentRectsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJAShowAlignmentRectsTests.h; path = Tests/CJAShowAlignmentRectsTests.h; sourceTree = SOURCE_ROOT; };
+		FAF64F8817DDD0FB00960937 /* CJAShowAlignmentRectsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJAShowAlignmentRectsTests.m; path = Tests/CJAShowAlignmentRectsTests.m; sourceTree = SOURCE_ROOT; };
+		FAF64F8B17DDD0FB00960937 /* CJAShowAlignmentRectsTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CJAShowAlignmentRectsTests-Info.plist"; path = "Tests/Other Sources/CJAShowAlignmentRectsTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FAF64F9117DDD18D00960937 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		FAF64F9217DDD18D00960937 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		FAF64F9517DDD1CB00960937 /* CJAShowAlignmentRects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJAShowAlignmentRects.h; sourceTree = "<group>"; };
+		FAF64F9617DDD1CB00960937 /* CJAShowAlignmentRects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJAShowAlignmentRects.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA80C4C617DDC8B80065F078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA80C4CD17DDC8B80065F078 /* UIKit.framework in Frameworks */,
+				FA80C4CF17DDC8B80065F078 /* Foundation.framework in Frameworks */,
+				FA80C4D117DDC8B80065F078 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA80C4E517DDC8B80065F078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA80C4EB17DDC8B80065F078 /* SenTestingKit.framework in Frameworks */,
+				FA80C4EC17DDC8B80065F078 /* UIKit.framework in Frameworks */,
+				FA80C4ED17DDC8B80065F078 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA80C4C017DDC8B80065F078 = {
+			isa = PBXGroup;
+			children = (
+				FA80C4D217DDC8B80065F078 /* CJAShowAlignmentRects */,
+				FAF64F7517DDD0EA00960937 /* Example */,
+				FA80C4F017DDC8B80065F078 /* CJAShowAlignmentRectsTests */,
+				FA80C4CB17DDC8B80065F078 /* Frameworks */,
+				FA80C4CA17DDC8B80065F078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA80C4CA17DDC8B80065F078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA80C4C917DDC8B80065F078 /* CJAShowAlignmentRects.app */,
+				FA80C4E917DDC8B80065F078 /* CJAShowAlignmentRectsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA80C4CB17DDC8B80065F078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA80C4CC17DDC8B80065F078 /* UIKit.framework */,
+				FA80C4CE17DDC8B80065F078 /* Foundation.framework */,
+				FA80C4D017DDC8B80065F078 /* CoreGraphics.framework */,
+				FA80C4EA17DDC8B80065F078 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA80C4D217DDC8B80065F078 /* CJAShowAlignmentRects */ = {
+			isa = PBXGroup;
+			children = (
+				FAF64F9517DDD1CB00960937 /* CJAShowAlignmentRects.h */,
+				FAF64F9617DDD1CB00960937 /* CJAShowAlignmentRects.m */,
+			);
+			path = CJAShowAlignmentRects;
+			sourceTree = "<group>";
+		};
+		FA80C4F017DDC8B80065F078 /* CJAShowAlignmentRectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF64F8717DDD0FB00960937 /* CJAShowAlignmentRectsTests.h */,
+				FAF64F8817DDD0FB00960937 /* CJAShowAlignmentRectsTests.m */,
+				FAF64F8917DDD0FB00960937 /* Other Sources */,
+			);
+			path = CJAShowAlignmentRectsTests;
+			sourceTree = "<group>";
+		};
+		FAF64F7517DDD0EA00960937 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				FAF64F7617DDD0EA00960937 /* Classes */,
+				FAF64F7917DDD0EA00960937 /* Other Sources */,
+				FAF64F7D17DDD0EA00960937 /* Ressources */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		FAF64F7617DDD0EA00960937 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAF64F7717DDD0EA00960937 /* AppDelegate.h */,
+				FAF64F7817DDD0EA00960937 /* AppDelegate.m */,
+				FAF64F9117DDD18D00960937 /* ExampleViewController.h */,
+				FAF64F9217DDD18D00960937 /* ExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FAF64F7917DDD0EA00960937 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAF64F7A17DDD0EA00960937 /* CJAShowAlignmentRects-Info.plist */,
+				FAF64F7B17DDD0EA00960937 /* CJAShowAlignmentRects-Prefix.pch */,
+				FAF64F7C17DDD0EA00960937 /* main.m */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		FAF64F7D17DDD0EA00960937 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				FAF64F7E17DDD0EA00960937 /* Default-568h@2x.png */,
+				FAF64F7F17DDD0EA00960937 /* Default.png */,
+				FAF64F8017DDD0EA00960937 /* Default@2x.png */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		FAF64F8917DDD0FB00960937 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAF64F8B17DDD0FB00960937 /* CJAShowAlignmentRectsTests-Info.plist */,
+			);
+			name = "Other Sources";
+			path = "Tests/Other Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA80C4C817DDC8B80065F078 /* CJAShowAlignmentRects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA80C4FB17DDC8B80065F078 /* Build configuration list for PBXNativeTarget "CJAShowAlignmentRects" */;
+			buildPhases = (
+				FA80C4C517DDC8B80065F078 /* Sources */,
+				FA80C4C617DDC8B80065F078 /* Frameworks */,
+				FA80C4C717DDC8B80065F078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJAShowAlignmentRects;
+			productName = CJAShowAlignmentRects;
+			productReference = FA80C4C917DDC8B80065F078 /* CJAShowAlignmentRects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA80C4E817DDC8B80065F078 /* CJAShowAlignmentRectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA80C4FE17DDC8B80065F078 /* Build configuration list for PBXNativeTarget "CJAShowAlignmentRectsTests" */;
+			buildPhases = (
+				FA80C4E417DDC8B80065F078 /* Sources */,
+				FA80C4E517DDC8B80065F078 /* Frameworks */,
+				FA80C4E617DDC8B80065F078 /* Resources */,
+				FA80C4E717DDC8B80065F078 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA80C4EF17DDC8B80065F078 /* PBXTargetDependency */,
+			);
+			name = CJAShowAlignmentRectsTests;
+			productName = CJAShowAlignmentRectsTests;
+			productReference = FA80C4E917DDC8B80065F078 /* CJAShowAlignmentRectsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA80C4C117DDC8B80065F078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Carl Jahn";
+			};
+			buildConfigurationList = FA80C4C417DDC8B80065F078 /* Build configuration list for PBXProject "CJAShowAlignmentRects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA80C4C017DDC8B80065F078;
+			productRefGroup = FA80C4CA17DDC8B80065F078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA80C4C817DDC8B80065F078 /* CJAShowAlignmentRects */,
+				FA80C4E817DDC8B80065F078 /* CJAShowAlignmentRectsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA80C4C717DDC8B80065F078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF64F8417DDD0EA00960937 /* Default-568h@2x.png in Resources */,
+				FAF64F8517DDD0EA00960937 /* Default.png in Resources */,
+				FAF64F8617DDD0EA00960937 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA80C4E617DDC8B80065F078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA80C4E717DDC8B80065F078 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA80C4C517DDC8B80065F078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF64F8117DDD0EA00960937 /* AppDelegate.m in Sources */,
+				FAF64F8317DDD0EA00960937 /* main.m in Sources */,
+				FAF64F9417DDD19000960937 /* ExampleViewController.m in Sources */,
+				FAF64F9717DDD1CB00960937 /* CJAShowAlignmentRects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA80C4E417DDC8B80065F078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF64F8C17DDD0FB00960937 /* CJAShowAlignmentRectsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA80C4EF17DDC8B80065F078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA80C4C817DDC8B80065F078 /* CJAShowAlignmentRects */;
+			targetProxy = FA80C4EE17DDC8B80065F078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA80C4F917DDC8B80065F078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA80C4FA17DDC8B80065F078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA80C4FC17DDC8B80065F078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/CJAShowAlignmentRects-Prefix.pch";
+				INFOPLIST_FILE = "Example/Other Sources/CJAShowAlignmentRects-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA80C4FD17DDC8B80065F078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/CJAShowAlignmentRects-Prefix.pch";
+				INFOPLIST_FILE = "Example/Other Sources/CJAShowAlignmentRects-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA80C4FF17DDC8B80065F078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CJAShowAlignmentRects.app/CJAShowAlignmentRects";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Ohter Sources/CJAShowAlignmentRects-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Other Sources/CJAShowAlignmentRectsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FA80C50017DDC8B80065F078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CJAShowAlignmentRects.app/CJAShowAlignmentRects";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Ohter Sources/CJAShowAlignmentRects-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Other Sources/CJAShowAlignmentRectsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA80C4C417DDC8B80065F078 /* Build configuration list for PBXProject "CJAShowAlignmentRects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA80C4F917DDC8B80065F078 /* Debug */,
+				FA80C4FA17DDC8B80065F078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA80C4FB17DDC8B80065F078 /* Build configuration list for PBXNativeTarget "CJAShowAlignmentRects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA80C4FC17DDC8B80065F078 /* Debug */,
+				FA80C4FD17DDC8B80065F078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA80C4FE17DDC8B80065F078 /* Build configuration list for PBXNativeTarget "CJAShowAlignmentRectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA80C4FF17DDC8B80065F078 /* Debug */,
+				FA80C50017DDC8B80065F078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA80C4C117DDC8B80065F078 /* Project object */;
+}
