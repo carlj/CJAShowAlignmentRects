@@ -13,11 +13,11 @@
  */
 typedef enum _CJAShowAligmentRectsStatus {
   
-  //Alignment Rects are Visible
-  CJAShowAligmentRectsStatusVisible   = 0,
-  
   //Alignment Rects are hidden
-  CJAShowAligmentRectsStatusHidden = 1
+  CJAShowAligmentRectsStatusHidden  = 0,
+  
+  //Alignment Rects are Visible
+  CJAShowAligmentRectsStatusVisible = 1,
   
 } CJAShowAligmentRectsStatus;
 

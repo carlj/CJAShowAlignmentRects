@@ -403,7 +403,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/Ohter Sources/CJAShowAlignmentRects-Prefix.pch";
+				GCC_PREFIX_HEADER = "Example/Other Sources/CJAShowAlignmentRects-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Other Sources/CJAShowAlignmentRectsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -420,7 +420,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/Ohter Sources/CJAShowAlignmentRects-Prefix.pch";
+				GCC_PREFIX_HEADER = "Example/Other Sources/CJAShowAlignmentRects-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Other Sources/CJAShowAlignmentRectsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

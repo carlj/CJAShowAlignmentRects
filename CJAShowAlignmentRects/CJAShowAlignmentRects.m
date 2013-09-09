@@ -13,10 +13,12 @@ NSString *const kShowAlignmentRectsDefaultsKey = @"UIViewShowAlignmentRects";
 @implementation CJAShowAlignmentRects
 
 + (void)show {
+  
   [self.class setStatus: CJAShowAligmentRectsStatusVisible];
 }
 
 + (void)hide {
+  
   [self.class setStatus: CJAShowAligmentRectsStatusHidden];
 }
 
@@ -28,13 +30,15 @@ NSString *const kShowAlignmentRectsDefaultsKey = @"UIViewShowAlignmentRects";
   boolValue = NO;
 #endif
   
-  [[NSUserDefaults standardUserDefaults] setBool:boolValue  forKey: kShowAlignmentRectsDefaultsKey ];
+  [[NSUserDefaults standardUserDefaults] setBool: boolValue  forKey: kShowAlignmentRectsDefaultsKey ];
   [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 + (CJAShowAligmentRectsStatus)status {
 
-  return [[NSUserDefaults standardUserDefaults] boolForKey: kShowAlignmentRectsDefaultsKey];
+  BOOL boolValue = [[NSUserDefaults standardUserDefaults] boolForKey: kShowAlignmentRectsDefaultsKey];
+  
+  return (boolValue ? CJAShowAligmentRectsStatusVisible : CJAShowAligmentRectsStatusHidden);
 }
 
 @end
