@@ -1,6 +1,8 @@
 #CJAShowAlignmentRects
 See alignment rects of all `UIView` drawn.
 
+[![Build Status](https://travis-ci.org/carlj/CJAShowAlignmentRects.png?branch=master)](https://travis-ci.org/carlj/CJAShowAlignmentRects)
+
 ##Installation
 Just drag & drop the `CJAShowAlignmentRects.h` and `CJAShowAlignmentRects.m` to your project
 
