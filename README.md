@@ -28,5 +28,9 @@ First of all: take a look at the `ExampleViewController.m` in the Example
 CJAShowAligmentRectsStatus status = [CJAShowAlignmentRects status];
 ```
 
+##Note
+* You cant enable the Alignment Rects in a Release Build 
+* You must restart the App after enableing or disableing the Alignment Rects
+
 ##LICENSE
 Released under the [MIT LICENSE](LICENSE)
