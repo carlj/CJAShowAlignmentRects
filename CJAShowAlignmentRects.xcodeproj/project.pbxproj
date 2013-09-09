@@ -378,6 +378,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Other Sources/CJAShowAlignmentRects-Prefix.pch";
 				INFOPLIST_FILE = "Example/Other Sources/CJAShowAlignmentRects-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -405,6 +406,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Other Sources/CJAShowAlignmentRects-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Other Sources/CJAShowAlignmentRectsTests-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
