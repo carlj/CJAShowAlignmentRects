@@ -5,7 +5,6 @@ See alignment rects of all `UIView` drawn.
 Just drag & drop the `CJAShowAlignmentRects.h` and `CJAShowAlignmentRects.m` to your project
 
 ##Example
-
  Visible | Hidden
 --- | ---
 ![Screenshot](screenshot_visible.png) | ![Screenshot](screenshot_hidden.png)
@@ -14,12 +13,12 @@ Just drag & drop the `CJAShowAlignmentRects.h` and `CJAShowAlignmentRects.m` to 
 First of all: take a look at the `ExampleViewController.m` in the Example
 
 ``` objc
-	//Show the Alignment Rects
+  //Show the Alignment Rects
   [CJAShowAlignmentRects show];
 
   //Hide the Alignment Rects
   [CJAShowAlignmentRects hide];
-  
+
   //Show or Hide the Alignment Rects with the custom enum flag
   [CJAShowAlignmentRects setStatus: CJAShowAligmentRectsStatusVisible];
 
