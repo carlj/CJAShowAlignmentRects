@@ -1,5 +1,5 @@
 #CJAShowAlignmentRects
-See alignment rects of all `UIView` drawn.
+See alignment rects of all [`UIView`](https://developer.apple.com/library/ios/documentation/uikit/reference/uiview_class/) drawn.
 
 [![Build Status](https://travis-ci.org/carlj/CJAShowAlignmentRects.png?branch=master)](https://travis-ci.org/carlj/CJAShowAlignmentRects)
 
